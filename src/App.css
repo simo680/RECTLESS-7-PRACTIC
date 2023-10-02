@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ListItems, h1 {
+    margin-bottom: 20px;
+    display: flex;
+     justify-content: center;
+  }
+  
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 30%; /* Adjust as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .count-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-button {
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
